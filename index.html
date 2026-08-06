@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anant Gupta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-brand" href="#hero">anant<span>@gupta:~$</span></a>
+    <ul class="nav-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#content">Content</a>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="prompt-line">whoami</div>
+      <h1 class="hero-name">Anant Gupta<span class="cursor"></span></h1>
+      <p class="hero-tagline">Systems Enthusiast, Developer, &amp; Open-Source Tinkerer</p>
+      <p class="hero-bio">
+        I build efficient software, automate environments, and tinker with system-level architectures.
+        From optimizing minimal Unix workflows to building functional real-world applications,
+        I enjoy breaking systems apart to understand exactly how they work under the hood.
+      </p>
+      <div class="hero-links">
+        <a href="https://gitlab.com/AnantGupta" class="btn btn-accent" target="_blank">⌥ GitLab</a>
+        <a href="https://www.youtube.com/@anantgupta7916" class="btn btn-blue" target="_blank">▶ YouTube</a>
+        <a href="mailto:anantxiii@gmail.com" class="btn" target="_blank">✉ Email</a>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <div class="sec-header reveal">
+        <h2><span class="num">00.</span> About</h2>
+        <div class="sec-line"></div>
+      </div>
+      <div class="reveal">
+        <p class="line-comment">// a brief introduction</p>
+        <p style="font-size:0.82rem; color:var(--text-dim); max-width:680px; line-height:1.9;">
+          Based in Noida, India — I'm a systems-minded developer who gravitates toward low-level tooling,
+          Unix philosophy, and the art of building lean, purposeful software. My work spans C systems programs,
+          Python automation, and full-stack web projects. Outside of code, I document my Linux setups and
+          troubleshooting journeys on YouTube for the community.
+        </p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── EDUCATION ── -->
+    <section id="education">
+      <div class="sec-header reveal">
+        <h2><span class="num">01.</span> Education</h2>
+        <div class="sec-line"></div>
+      </div>
+
+      <div class="edu-grid reveal">
+        <div class="edu-row header-row">
+          <div class="edu-cell">Milestone</div>
+          <div class="edu-cell">Institution / Board</div>
+          <div class="edu-cell">Performance</div>
+        </div>
+
+        <div class="edu-row">
+          <div class="edu-cell edu-label">Class 12</div>
+          <div class="edu-cell" style="font-size:0.78rem; color:var(--text);">
+            East Point School, Delhi<br>
+            <span style="color:var(--text-faint); font-size:0.68rem;">CBSE Board</span>
+          </div>
+          <div class="edu-cell">
+            <span class="edu-score">91.4%</span>
+          </div>
+        </div>
+
+        <div class="edu-row">
+          <div class="edu-cell edu-label">Class 10</div>
+          <div class="edu-cell" style="font-size:0.78rem; color:var(--text);">
+            Bal Bharati Public School, Noida<br>
+            <span style="color:var(--text-faint); font-size:0.68rem;">CBSE Board</span>
+          </div>
+          <div class="edu-cell">
+            <span class="edu-score">93.8%</span><br>
+            <span class="edu-badge badge-gold">🏆 Class Topper</span>
+            <span class="edu-badge badge-gold">Rank 1 — STEM Olympiad</span>
+            <span class="edu-badge">3rd — NSTSE</span>
+          </div>
+        </div>
+
+        <div class="edu-row">
+          <div class="edu-cell edu-label">Competitive</div>
+          <div class="edu-cell" style="font-size:0.78rem; color:var(--text);">
+            JEE Mains<br>
+            <span style="color:var(--text-faint); font-size:0.68rem;">National Engineering Entrance</span>
+          </div>
+          <div class="edu-cell">
+            <span class="edu-score" style="color:var(--accent2);">95.1 Percentile</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-row">
+        <div class="edu-cell edu-label">Competitive</div>
+        <div class="edu-cell" style="font-size:0.78rem; color:var(--text);">
+          BITSAT<br>
+          <span style="color:var(--text-faint); font-size:0.68rem;">Entrance Exam for BITS Pilani</span>
+        </div>
+        <div class="edu-cell">
+          <span class="edu-score" style="color:var(--accent2);">223 Marks</span>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="sec-header reveal">
+        <h2><span class="num">02.</span> Projects</h2>
+        <div class="sec-line"></div>
+      </div>
+
+      <!-- Category A -->
+      <div class="cat-block reveal">
+        <div class="cat-label">A — Unix Environments &amp; Systems Architecture</div>
+        <div class="projects-grid">
+
+          <a href="https://gitlab.com/AnantGupta/dotfiles" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>dotfiles</div>
+            <div class="p-desc">
+              An automated environment deployment and configuration engine for Arch Linux.
+              Provisions a complete, customized CLI-first workspace instantly from a single bootstrap.
+            </div>
+            <div class="tag-row">
+              <span class="tag green">Shell</span>
+              <span class="tag green">Arch Linux</span>
+              <span class="tag">Automation</span>
+            </div>
+          </a>
+
+          <a href="https://gitlab.com/AnantGupta/dwm" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>dwm</div>
+            <div class="p-desc">
+              A minimalist, keyboard-driven tiling window manager for X11, built in pure C and patched at the source
+              level. Customized with layout tweaks, tag rules, and system status bar hooks — configured entirely through
+              config.h rather than runtime scripts. </div>
+            <div class="tag-row">
+              <span class="tag green">C</span>
+              <span class="tag green">Suckless</span>
+              <span class="tag">Tiling WM</span>
+            </div>
+          </a>
+
+
+          <a href="https://gitlab.com/AnantGupta/st" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>st</div>
+            <div class="p-desc">
+              A stripped-down, blazing-fast terminal emulator from the Suckless project, compiled from source with
+              hand-applied patches for transparency, scrollback, and font rendering. Zero runtime dependencies, zero
+              bloat. </div>
+            <div class="tag-row">
+              <span class="tag green">C</span>
+              <span class="tag green">Suckless</span>
+              <span class="tag">Terminal</span>
+            </div>
+          </a>
+
+          <a href="https://gitlab.com/AnantGupta/dmenu" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>dmenu</div>
+            <div class="p-desc">
+              A fast, keyboard-driven application launcher and general-purpose menu utility. Patched and styled to match
+              the broader desktop environment — custom colors, padding, and fuzzy matching behavior baked in at compile
+              time.
+            </div>
+            <div class="tag-row">
+              <span class="tag green">C</span>
+              <span class="tag green">Suckless</span>
+              <span class="tag">Launcher</span>
+            </div>
+          </a>
+
+          <a href="https://gitlab.com/AnantGupta/minfetch" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>minfetch</div>
+            <div class="p-desc">
+              A lightweight, ultra-fast system information gathering utility written to eliminate
+              the execution overhead of heavy external shell scripts. Speed-first design - Alternative to popular
+              program neofetch
+            </div>
+            <div class="tag-row">
+              <span class="tag green">Shell</span>
+              <span class="tag">Minimal</span>
+              <span class="tag">CLI</span>
+            </div>
+          </a>
+
+          <a href="https://gitlab.com/AnantGupta/terminal-help" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>Terminal-Help</div>
+            <div class="p-desc">
+              A documentation platform and interactive guide designed to onboard users migrating
+              from GUI desktop environments to terminal-centric workflows.
+            </div>
+            <div class="tag-row">
+              <span class="tag green">Docs</span>
+              <span class="tag">Education</span>
+              <span class="tag">CLI</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Category B -->
+      <div class="cat-block reveal">
+        <div class="cat-label yellow">B — Applied Logic &amp; Automation</div>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="p-name"><span class="p-icon">◈</span>Project Exoshock</div>
+            <div class="p-desc">
+              An embedded safety system prototype designed to prevent driving accidents via
+              drowsiness detection. Won multiple regional competitions and secured
+              ₹10,000 in seed innovation funding from the Government of India.
+            </div>
+            <div class="tag-row">
+              <span class="tag gold">Hardware</span>
+              <span class="tag gold">Embedded</span>
+              <span class="tag gold">🏆 Award Winner</span>
+            </div>
+          </div>
+
+          <a href="https://gitlab.com/AnantGupta/cricket-scoreboard" class="project-card" target="_blank"
+            rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>Cricket Stats Engine</div>
+            <div class="p-desc">
+              A Python application to track performance metrics, manage match scoreboards, and
+              compute relative statistical comparisons for local cricket matches.
+            </div>
+            <div class="tag-row">
+              <span class="tag gold">Python</span>
+              <span class="tag">Data</span>
+              <span class="tag">CLI</span>
+            </div>
+          </a>
+
+          <a href=https://gitlab.com/AnantGupta/school-talent-searchers" class="project-card" target="_blank"
+            rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>School Talent Searcher</div>
+            <div class="p-desc">
+              A C++ utility for academic mentors to parse student data profiles programmatically
+              and identify specific capability matrices across large cohorts.
+            </div>
+            <div class="tag-row">
+              <span class="tag gold">C++</span>
+              <span class="tag">Education</span>
+              <span class="tag">Parsing</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Category C -->
+      <div class="cat-block reveal">
+        <div class="cat-label blue">C — Web Engineering &amp; AI Interaction</div>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="p-name"><span class="p-icon">◇</span>G20 Hackathon Project</div>
+            <div class="p-desc">
+              Won 1st Place by building a fully responsive website layout about the G20 summit
+              from scratch in under 60 minutes — entirely offline without internet or references.
+            </div>
+            <div class="tag-row">
+              <span class="tag blue">HTML/CSS</span>
+              <span class="tag blue">🏆 1st Place</span>
+              <span class="tag">Hackathon</span>
+            </div>
+          </div>
+
+          <a href="https://gitlab.com/AnantGupta/chatbot-for-atl-2" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>ATL Voice Chatbot</div>
+            <div class="p-desc">
+              An accessibility-focused FAQ chatbot integrating speech synthesis to help younger
+              students troubleshoot lab equipment for the Atal Tinkering Labs initiative.
+            </div>
+            <div class="tag-row">
+              <span class="tag blue">Python</span>
+              <span class="tag blue">Web Speech API</span>
+              <span class="tag">Accessibility</span>
+            </div>
+          </a>
+
+          <a href="https://gitlab.com/AnantGupta/non-profit" class="project-card" target="_blank" rel="noopener">
+            <div class="p-name"><span class="p-icon">⬡</span>Non Profit Website</div>
+            <div class="p-desc">
+              Engineered a clean, optimized web portal for a school social changemaker club to
+              drive community outreach and coordinate volunteer programs.
+            </div>
+            <div class="tag-row">
+              <span class="tag blue">Web</span>
+              <span class="tag">Non-Profit</span>
+              <span class="tag">Outreach</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ── CONTENT CREATION ── -->
+    <section id="content">
+      <div class="sec-header reveal">
+        <h2><span class="num">03.</span> Technical Content</h2>
+        <div class="sec-line"></div>
+      </div>
+
+      <div class="content-card reveal">
+        <h3>Technical Communication &amp; Community Outreach</h3>
+        <p>
+          I run a technical YouTube channel focused on documenting Linux system fixes,
+          environment ricing, and software troubleshooting — aimed at developers migrating to
+          or deepening their Unix workflows.
+        </p>
+        <p>
+          Content focus: kernel module configurations, Xorg compositor tweaks (picom),
+          and package management resolution on Arch Linux — covering VirtualBox kernel module
+          rebuilds, compilation path fixes, and Xorg display driver edge cases.
+        </p>
+
+        <div class="stat-row">
+          <div class="stat-item">
+            <span class="stat-num">10K<span>+</span></span>
+            <span class="stat-label">Collective Views</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" style="color:var(--accent2);">Arch</span>
+            <span class="stat-label">Primary Focus</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" style="color:var(--accent3);">Linux</span>
+            <span class="stat-label">Domain</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>anant@gupta</span>:~$ echo "built with precision, no frameworks harmed" &nbsp;|&nbsp; Noida, India
+  </footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
