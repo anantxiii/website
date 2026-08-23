@@ -335,22 +335,6 @@ section {
     font-weight: 700;
 }
 
-.edu-badge {
-    display: inline-block;
-    padding: 0.15rem 0.5rem;
-    font-size: 0.62rem;
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    margin-top: 0.3rem;
-    margin-right: 0.3rem;
-    letter-spacing: 0.04em;
-}
-
-.badge-gold {
-    border-color: var(--accent3);
-    color: var(--accent3);
-}
-
 .badge-blue {
     border-color: var(--accent2);
     color: var(--accent2);
